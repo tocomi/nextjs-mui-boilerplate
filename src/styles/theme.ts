@@ -13,6 +13,7 @@ const theme = createTheme({
       main: red.A400,
     },
   },
+  spacing: 2,
 })
 
 export default theme
