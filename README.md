@@ -4,5 +4,6 @@
 - typescript
 - MUI
 - emotion
+- storybook
 - eslint
 - prettier
