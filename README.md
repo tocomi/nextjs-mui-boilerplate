@@ -2,5 +2,7 @@
 
 - Next.js
 - typescript
+- MUI
+- emotion
 - eslint
 - prettier
