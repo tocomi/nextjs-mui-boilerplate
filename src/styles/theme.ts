@@ -2,6 +2,10 @@ import { red } from '@mui/material/colors'
 import { createTheme } from '@mui/material/styles'
 
 const theme = createTheme({
+  typography: {
+    fontFamily: ['Noto Sans', 'Noto Sans JP', '-apple-system', 'Roboto', 'sans-serif'].join(','),
+    fontSize: 14,
+  },
   palette: {
     primary: {
       main: '#1c3879',
