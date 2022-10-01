@@ -7,7 +7,7 @@ export default { component: Slider } as ComponentMeta<typeof Slider>
 
 export const Index: ComponentStoryObj<typeof Slider> = {
   args: {
-    sx: { width: 300, m: 4 },
+    sx: { width: 300, m: 12 },
     valueLabelDisplay: 'auto',
     defaultValue: 50,
   },
