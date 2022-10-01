@@ -17,8 +17,8 @@ export const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>I am tocomi</title>
-        <meta name="description" content="I am tocomi" />
+        <title>nextjs-mui-boilerplate</title>
+        <meta name="description" content="nextjs-mui-boilerplate" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
