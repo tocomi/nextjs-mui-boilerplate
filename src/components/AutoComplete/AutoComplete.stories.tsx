@@ -1,8 +1,7 @@
 import { TextField } from '@mui/material'
 import { ComponentMeta, ComponentStoryObj } from '@storybook/react'
+import { within, userEvent } from '@storybook/testing-library'
 import { AutoComplete } from './AutoComplete'
-import { within, waitFor, userEvent } from '@storybook/testing-library'
-import { expect } from '@storybook/jest'
 
 const top100Films = [
   { label: 'The Shawshank Redemption', year: 1994 },

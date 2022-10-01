@@ -1,7 +1,7 @@
+import { expect } from '@storybook/jest'
 import { ComponentMeta, ComponentStoryObj } from '@storybook/react'
 import { within, userEvent } from '@storybook/testing-library'
 import { Slider } from './Slider'
-import { expect } from '@storybook/jest'
 
 export default { component: Slider } as ComponentMeta<typeof Slider>
 
@@ -14,9 +14,9 @@ export const Index: ComponentStoryObj<typeof Slider> = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement)
 
-    userEvent.hover(canvas.getByRole('slider'))
+    await userEvent.hover(canvas.getByRole('slider'))
 
     // NOTE: ホバーすると数値が表示される
-    expect(canvas.getByText('50')).toBeInTheDocument()
+    await expect(canvas.getByText('50')).toBeInTheDocument()
   },
 }
