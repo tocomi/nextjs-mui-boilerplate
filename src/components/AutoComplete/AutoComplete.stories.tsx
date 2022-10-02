@@ -1,5 +1,5 @@
 import { TextField } from '@mui/material'
-import { ComponentMeta, ComponentStoryObj } from '@storybook/react'
+import { type ComponentMeta, type ComponentStoryObj } from '@storybook/react'
 import { within, userEvent } from '@storybook/testing-library'
 import { AutoComplete } from './AutoComplete'
 

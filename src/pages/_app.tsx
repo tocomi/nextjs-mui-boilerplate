@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { EmotionCache } from '@emotion/cache'
+import { type EmotionCache } from '@emotion/cache'
 import { CacheProvider } from '@emotion/react'
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import type { AppProps } from 'next/app'

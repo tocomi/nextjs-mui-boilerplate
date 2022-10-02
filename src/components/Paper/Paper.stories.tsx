@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStoryObj } from '@storybook/react'
+import { type ComponentMeta, type ComponentStoryObj } from '@storybook/react'
 import { Paper } from './Paper'
 
 export default { component: Paper } as ComponentMeta<typeof Paper>
